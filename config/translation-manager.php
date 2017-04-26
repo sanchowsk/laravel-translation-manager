@@ -11,8 +11,13 @@ return array(
     |
     */
     'route' => [
-        'prefix' => 'translations',
-        'middleware' => 'auth',
+        'prefix' => 'backend/translations',
+        'middleware' => [
+            'web',
+            'auth',
+            'roles'
+        ],
+        'roles' => [1],
     ],
 
 	/**
