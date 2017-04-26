@@ -3,12 +3,6 @@
     "description": "Manage Laravel Translations",
     "keywords": ["laravel", "translations", "translator"],
     "license": "MIT",
-    "repositories": [  
-        {  
-            "type": "vcs",  
-            "url": "https://github.com/sanchowsk/laravel-translation-manager"  
-        }  
-    ],  
     "authors": [
         {
             "name": "Barry vd. Heuvel",
