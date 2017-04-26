@@ -1,5 +1,5 @@
 {
-    "name": "sanchowsk/laravel-translation-manager",
+    "name": "barryvdh/laravel-translation-manager",
     "description": "Manage Laravel Translations",
     "keywords": ["laravel", "translations", "translator"],
     "license": "MIT",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sanchowsk\\TranslationManager\\": "src/"
+            "Barryvdh\\TranslationManager\\": "src/"
         }
     },
     "extra": {
