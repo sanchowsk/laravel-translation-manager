@@ -30,7 +30,7 @@
                 <form role="form">
                     <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
                     <div class="form-group">
-                        <select name="group" id="group" class="form-control group-select">
+                        <select name="group" id="group" class="form-control group-select js_group_translate">
                             <?php foreach($groups as $key => $value): ?>
                             <option value="<?= $key ?>"<?= $key == $group ? ' selected' : '' ?>><?= $value ?></option>
                             <?php endforeach; ?>
